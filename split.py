@@ -19,6 +19,6 @@ for file in glob.iglob(os.path.join(current_dir, '*.jpg')):
     title, ext = os.path.splitext(os.path.basename(file))
     if counter <= split:
         counter += 1
-        file_test.write("mobil/" + current_dir + "/" + title + '.jpg' + "\n")
+        file_test.write("yolo-mobil/" + current_dir + "/" + title + '.jpg' + "\n")
     else:
-        file_train.write("mobil/" + current_dir + "/" + title + '.jpg' + "\n")
+        file_train.write("yolo-mobil/" + current_dir + "/" + title + '.jpg' + "\n")
