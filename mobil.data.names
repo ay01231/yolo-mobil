@@ -1,0 +1,5 @@
+classes = 3
+train = mobil/train.txt
+valid = mobil/valid.txt
+names = mobil/mobil.names
+backup = backup
