@@ -2,4 +2,4 @@ classes = 3
 train = yolo-mobil/train.txt
 valid = yolo-mobil/valid.txt
 names = yolo-mobil/mobil.names
-backup = backup
+backup = ../drive/MyDrive/backup
