@@ -1,0 +1,4 @@
+mobil
+truk
+bis
+bus
